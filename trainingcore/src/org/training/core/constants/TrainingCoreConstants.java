@@ -19,6 +19,7 @@ package org.training.core.constants;
 public final class TrainingCoreConstants extends GeneratedTrainingCoreConstants
 {
 	public static final String EXTENSIONNAME = "trainingcore";
+	public static final String EXTENSIONNAME1 = "trainingcore1";
 
 	private TrainingCoreConstants()
 	{
