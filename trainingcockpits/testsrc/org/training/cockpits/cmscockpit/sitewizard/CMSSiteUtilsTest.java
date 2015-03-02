@@ -230,6 +230,7 @@ public class CMSSiteUtilsTest
 		@Override
 		public String getSequenceUidValue(final String typeCode, final String prefix)
 		{
+			System.out.println("check");
 			return typeCode + "_" + prefix + "_" + idx++;
 		}
 
