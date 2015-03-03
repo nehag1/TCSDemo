@@ -14,7 +14,7 @@ package org.training.facades.constants;
 public class GeneratedTrainingFacadesConstants
 {
 	public static final String EXTENSIONNAME = "trainingfacades";
-	
+	public static final String EXTENSIONNAMEs = "trainingfacades1";
 	protected GeneratedTrainingFacadesConstants()
 	{
 		// private constructor
