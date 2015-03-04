@@ -123,7 +123,7 @@ public class ProductPageController extends AbstractPageController
 		}
 
 		updatePageTitle(productModel, model);
-	oductDetailForDisplay(productModel, model, request);
+		populateProductDetailForDisplay(productModel, model, request);
 		model.addAttribute(new ReviewForm());
 		final List<ProductReferenceData> productReferences = productFacade.getProductReferencesForCode(productCode,
 				Arrays.asList(ProductReferenceTypeEnum.SIMILAR, ProductReferenceTypeEnum.ACCESSORIES),
